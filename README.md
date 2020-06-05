@@ -18,7 +18,7 @@
 
             CREATE PROCEDURE `uspLogInMember`(
             Id int,
-            SearchId int /* this param eqals to userId in gulid_memeber*/
+            SearchId int /* this param eqals to column called account in table called memeber*/
         )
         BEGIN
 
